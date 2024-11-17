@@ -1,0 +1,7 @@
+{
+  "few_shot_learning": true,
+  "few_shot_task_num": 100,
+  "trainset_shot_num": 5,
+  "testset_shot_num": 5,
+  "few_shot_patience": 16
+}
