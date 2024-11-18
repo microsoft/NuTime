@@ -10,7 +10,7 @@ python main.py --config_path configs/default_finetune.json \
     --load_checkpoint_path $CHECKPOINT_PATH \
     --dataset_dir $DATA_DIR --archives ucr --force
 
-# # Run few shot from ckpt
+# Run few shot from ckpt
 python main.py --config_path configs/default_finetune.json \
     --load_checkpoint_path $CHECKPOINT_PATH \
     --dataset_dir $DATA_DIR --archives ucr --few_shot --force
@@ -19,6 +19,6 @@ python main.py --config_path configs/default_finetune.json \
 python main.py --config_path configs/default_cls.json \
     --dataset_dir $DATA_DIR --archives ucr --force
 
-# # Run few shot from scratch
+# Run few shot from scratch
 python main.py --config_path configs/default_cls.json \
     --dataset_dir $DATA_DIR --archives ucr --few_shot --force
